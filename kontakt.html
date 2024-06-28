@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <head>
+    <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Formularz kontaktowy</title>
+
+    <form action="kontakt.html" method="GET">
+  
+    <h3> Formularz kontaktowy </h3>
+
+<input type="text" placeholder="Imie" name="imie" value=""> 
+
+<br> <br>
+
+<input type="password" placeholder="Pesel" name="pesel"
+required>
+
+<br> <br>
+
+<input type="email" name="email" placeholder="email">
+
+<br><br>
+
+<p>Jakie kody odpowiedzi od serwera dotycza bledow po stronie klienta?<p>
+
+<label> 
+    <input type="radio" name="kod" value="100">1XX
+</label>    
+
+<label> 
+    <input type="radio" name="kod" value="200">2XX
+</label> 
+
+<label> 
+    <input type="radio" name="kod" value="300">3XX
+</label> 
+
+<label> 
+    <input type="radio" name="kod" value="400">4XX
+</label> 
+
+<label> 
+    <input type="radio" name="kod" value="500">5XX
+</label> 
+
+<br><br>
+
+<p> Jakie kody odpowiedzi od serwera znasz? </p>
+
+<label> 
+<input type="checkbox" name="kod_wielokrotny_101" value="101" disabled>
+101
+</label>
+
+<label> 
+    <input type="checkbox" name="kod_wielokrotny_404" value="404">
+    404
+</label>
+
+<label> 
+    <input type="checkbox" name="kod_wielokrotny_405" value="405">
+    405
+</label>
+
+<br><br>
+
+<p> Super modul </p>
+
+<select name="kurs">
+<option value="default"> -- select options-- </option>
+<option value="red_fun">red sorting</option>
+<option value="linux">linux</option>
+<option value="windows_server">windows server</option>
+<option value="web_fundamentals">web fundamentals</option>
+<option value="python">python</option>
+
+</select>
+
+<br><br>
+
+<input type="date" name="data">
+
+<br><br>
+
+<input type="submit" name="wyslij" 
+value="Wyslij">
+
+</form>
+<script><>
+</body>
+</html>
